@@ -1,4 +1,4 @@
-import basic
+import APL
 
 while True:
 	text = input('APL >>> ')
