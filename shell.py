@@ -1,7 +1,7 @@
 import basic
 
 while True:
-	text = input('MYOPL >>> ')
+	text = input('APL >>> ')
 	if text.strip() == "": continue
 	result, error = basic.run('<stdin>', text)
 
