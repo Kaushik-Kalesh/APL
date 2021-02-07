@@ -1,10 +1,8 @@
 import APL
-
 while True:
 	text = input('APL >>> ')
 	if text.strip() == "": continue
 	result, error = basic.run('<stdin>', text)
-
 	if error:
 		print(error.as_string())
 	elif result:
